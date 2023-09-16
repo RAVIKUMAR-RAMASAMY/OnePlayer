@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        //basic options
+        "outDir": "dist",
+        "module": "ES6",
+        "types": ["node"],
+        "target": "ES6",
+        "declaration": true,
+        //Strict Type-Checking options
+        "noImplicitAny": true,
+        "resolveJsonModule": true,
+
+        //Module Resolution options
+        "moduleResolution": "Node",
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+
+        //Additional options
+        "sourceMap": true,
+        "jsx": "react",
+        "allowJs": true,
+
+        //Recomedations
+        "importHelpers": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "exclude": ["node_modules","lib","dist"]
+}
